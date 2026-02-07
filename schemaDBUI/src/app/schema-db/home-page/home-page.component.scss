@@ -1,0 +1,19 @@
+.main-container {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: white;
+  font-size: 2rem;
+}
+
+.main-info{
+  font-size:3rem;
+  line-height:1.5;
+}
+.sub-info{
+  font-size:14px;
+  line-height:1.5;
+  font-weight: 400;
+  margin-top:5px
+}

@@ -2,3 +2,26 @@
 
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
+
+// body{
+//   background-color: black;
+// }
+
+.animated-bg {
+  min-height: 100vh;
+  background: linear-gradient(
+    270deg,
+    #0f2027,
+    #203a43,
+    #2c5364,
+    #1c1c3c
+  );
+  background-size: 600% 600%;
+  animation: gradientMove 15s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
