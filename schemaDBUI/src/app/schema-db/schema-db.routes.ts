@@ -15,7 +15,7 @@ export const schemaDBRoutes: Routes = [
   loadComponent:()=>import('./about-us/about-us.component').then(m=>m.AboutUsComponent)
 },
 {
-  path:'explore-more',
+  path:'explore',
   loadComponent:()=>import('./explore-more/explore-more.component').then(m=>m.ExploreMoreComponent)
 }
 ];
