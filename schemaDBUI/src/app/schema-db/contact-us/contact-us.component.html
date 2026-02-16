@@ -1,1 +1,30 @@
-<p>contact-us works!</p>
+<div class="card contact-card">
+  <div class="card-body">
+    <h5 class="text-center">Contact Us</h5>
+    <p class="card-text">
+      Whether you have questions about our services, want to discuss your
+      database needs, feel free to reach out to us for solutions.
+    </p>
+    <div class="row mb-3">
+      <div class="col-4">
+        <h6 class="mt-1">Name:</h6>
+      </div>
+      <div class="col-8 ps-0">
+        <input type="text" class="form-control" placeholder="your name" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <h6 class="mt-1">Email:</h6>
+      </div>
+      <div class="col-8 ps-0">
+        <input
+          type="email"
+          class="form-control"
+          placeholder="youremail@gmail.com"
+        />
+      </div>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+</div>

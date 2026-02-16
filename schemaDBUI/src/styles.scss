@@ -129,3 +129,21 @@ body {
     color: rgb(76, 74, 74);
   }
 }
+
+.footer-lists {
+  ul {
+    li {
+      margin-bottom: 10px;
+      a {
+        color: #fcfcfc;
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #00fdff;
+        text-decoration: underline;
+      }
+    }
+  }
+}
