@@ -147,3 +147,15 @@ body {
     }
   }
 }
+
+.footer-hr {
+  border: 2px !important;
+}
+.footer-section {
+  position: sticky;
+  top: 547px;
+  .footer-text {
+    font-size: 12px;
+    color: #fcfcfc;
+  }
+}
