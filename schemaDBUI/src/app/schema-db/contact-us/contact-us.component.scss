@@ -1,9 +1,19 @@
 .contact-card {
   width: 400px;
-  justify-content: center;
-  align-items: center;
-  transform: translate(103%, 53%);
+  margin: 7rem auto;
   .card-text {
     font-size: 12px;
   }
+  .contact-btn {
+    transition: all 0.3s ease;
+    border: 1px solid #96becf !important;
+  }
+  .contact-btn:hover {
+    background: linear-gradient(135deg, #6091a4, #c7dfea) !important;
+    color: #000 !important;
+  }
+}
+
+hugeicons-icon {
+  display: inline-block !important;
 }
