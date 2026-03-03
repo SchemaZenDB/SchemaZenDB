@@ -16,9 +16,18 @@ export const schemaDBRoutes: Routes = [
       ),
   },
   {
-    path: 'about',
+    path: 'company-overview',
     loadComponent: () =>
-      import('./about-us/about-us.component').then((m) => m.AboutUsComponent),
+      import('./aboutUs/company-overview/company-overview.component').then(
+        (m) => m.CompanyOverviewComponent,
+      ),
+  },
+  {
+    path: 'our-team',
+    loadComponent: () =>
+      import('./aboutUs/our-team/our-team.component').then(
+        (m) => m.OurTeamComponent,
+      ),
   },
   {
     path: 'explore',
