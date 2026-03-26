@@ -1,0 +1,1 @@
+import{Eb as p,Lb as a,ha as t,lb as n,mb as r}from"./chunk-S6KTS7VH.js";var m=class o{static \u0275fac=function(e){return new(e||o)};static \u0275cmp=t({type:o,selectors:[["app-explore-more"]],standalone:!0,features:[a],decls:2,vars:0,template:function(e,s){e&1&&(n(0,"p"),p(1,"explore-more works!"),r())}})};export{m as ExploreMoreComponent};

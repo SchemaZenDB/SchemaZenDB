@@ -1,0 +1,1 @@
+import{Eb as r,Lb as s,ha as o,lb as p,mb as n}from"./chunk-S6KTS7VH.js";var a=class e{static \u0275fac=function(t){return new(t||e)};static \u0275cmp=o({type:e,selectors:[["app-it-support"]],standalone:!0,features:[s],decls:2,vars:0,template:function(t,m){t&1&&(p(0,"p"),r(1,"it-support works!"),n())}})};export{a as ItSupportComponent};
