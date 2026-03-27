@@ -1,0 +1,105 @@
+.service-page {
+  background: linear-gradient(135deg, #0a0a12, #101020);
+  color: white;
+  padding: 80px 20px;
+}
+
+/* HERO */
+.hero h1 {
+  font-size: 42px;
+}
+
+.glow {
+  color: #00fdff;
+  text-shadow: 0 0 10px #00fdff;
+}
+
+.hero p {
+  color: #aaa;
+}
+
+/* OVERVIEW */
+.overview {
+  margin: 50px 0;
+}
+
+.overview p {
+  max-width: 700px;
+  margin: auto;
+  color: #bbb;
+}
+
+/* GRID */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* CARD */
+.service-card {
+  background: rgba(20, 20, 30, 0.6);
+  padding: 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  border: 1px solid transparent;
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  border: 1px solid #00fdff;
+  box-shadow: 0 0 20px rgba(0, 253, 255, 0.3);
+  transform: translateY(-5px);
+}
+
+/* TECH STACK */
+.tech-stack {
+  margin-top: 60px;
+}
+
+.tech-list span {
+  display: inline-block;
+  margin: 10px;
+  padding: 8px 16px;
+  border: 1px solid #00fdff;
+  border-radius: 20px;
+}
+
+/* PROCESS */
+.process {
+  margin-top: 60px;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.step {
+  background: #00fdff;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+/* CTA */
+.cta {
+  margin-top: 80px;
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 15px;
+  background: #00fdff;
+  color: black;
+  padding: 12px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  transform: scale(1.05);
+}
