@@ -34,6 +34,7 @@ export class ServicesHomeComponent {
       icon: 'bi-cloud',
     },
     {
+      id:'db-migration',
       title: 'Database Migration',
       description:
         'Secure, zero-downtime migration across platforms and environments.',
@@ -47,6 +48,7 @@ export class ServicesHomeComponent {
       icon: 'bi-diagram-3',
     },
      {
+      id:'it-contract-supply',
       title: 'IT Contract Supply',
       description:
         'Data pipelines, ETL workflows, and real-time processing solutions.',

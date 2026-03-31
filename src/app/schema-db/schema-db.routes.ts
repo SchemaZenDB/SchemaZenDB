@@ -79,11 +79,17 @@ export const schemaDBRoutes: Routes = [
     import('./services-home/cloud-db-mgmt/cloud-db-mgmt.component')
       .then(m => m.CloudDbMgmtComponent)
 },
-// {
-//   path: 'service/db-migration',
-//   loadComponent: () =>
-//     import('./services-home/db-migration/db-migration.component')
-//       .then(m => m.DbMigrationComponent)
-// }
+{
+  path: 'service/db-migration',
+  loadComponent: () =>
+    import('./services-home/db-migration/db-migration.component')
+      .then(m => m.DbMigrationComponent)
+},
+{
+  path: 'service/it-contract-supply',
+  loadComponent: () =>
+    import('./services-home/it-contract-supply/it-contract-supply.component')
+      .then(m => m.ItContractSupplyComponent)
+},
 
 ];
