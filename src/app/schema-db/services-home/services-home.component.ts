@@ -27,6 +27,7 @@ export class ServicesHomeComponent {
       icon: 'bi-gear',
     },
     {
+      id:'cloud-db',
       title: 'Cloud Database Management',
       description:
         'AWS, Azure, GCP database deployment, scaling, and optimization.',
@@ -39,7 +40,8 @@ export class ServicesHomeComponent {
       icon: 'bi-arrow-left-right',
     },
     {
-      title: 'Data Engineering',
+      id:'consulting',
+      title: 'Consulting Services',
       description:
         'Data pipelines, ETL workflows, and real-time processing solutions.',
       icon: 'bi-diagram-3',

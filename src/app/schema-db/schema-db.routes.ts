@@ -67,12 +67,18 @@ export const schemaDBRoutes: Routes = [
     import('./services-home/db-support/db-support.component')
       .then(m => m.DbSupportComponent)
 },
-// {
-//   path: 'service/cloud',
-//   loadComponent: () =>
-//     import('./services-home/cloud/cloud.component')
-//       .then(m => m.CloudComponent)
-// },
+  {
+  path: 'service/consulting',
+  loadComponent: () =>
+    import('./services-home/consulting/consulting.component')
+      .then(m => m.ConsultingComponent)
+},
+{
+  path: 'service/cloud-db',
+  loadComponent: () =>
+    import('./services-home/cloud-db-mgmt/cloud-db-mgmt.component')
+      .then(m => m.CloudDbMgmtComponent)
+},
 // {
 //   path: 'service/db-migration',
 //   loadComponent: () =>

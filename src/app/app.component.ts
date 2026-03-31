@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterModule, RouterOutlet } from '@angular/router';
+import { Router, RouterModule, RouterOutlet } from '@angular/router';
 import { NavbarComponent } from "./schema-db/navbar/navbar.component";
 import { FooterComponent } from "./schema-db/footer/footer.component";
 
@@ -11,5 +11,10 @@ import { FooterComponent } from "./schema-db/footer/footer.component";
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
+  constructor(private router: Router) {}
   title = 'schemaDBUI';
+
+  isContactPage(): boolean {
+  return this.router.url.includes('/schema-db/contact');
+}
 }
