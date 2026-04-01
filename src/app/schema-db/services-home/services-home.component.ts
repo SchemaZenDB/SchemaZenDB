@@ -27,24 +27,28 @@ export class ServicesHomeComponent {
       icon: 'bi-gear',
     },
     {
+      id:'cloud-db',
       title: 'Cloud Database Management',
       description:
         'AWS, Azure, GCP database deployment, scaling, and optimization.',
       icon: 'bi-cloud',
     },
     {
+      id:'db-migration',
       title: 'Database Migration',
       description:
         'Secure, zero-downtime migration across platforms and environments.',
       icon: 'bi-arrow-left-right',
     },
     {
-      title: 'Data Engineering',
+      id:'consulting',
+      title: 'Consulting Services',
       description:
         'Data pipelines, ETL workflows, and real-time processing solutions.',
       icon: 'bi-diagram-3',
     },
      {
+      id:'it-contract-supply',
       title: 'IT Contract Supply',
       description:
         'Data pipelines, ETL workflows, and real-time processing solutions.',
